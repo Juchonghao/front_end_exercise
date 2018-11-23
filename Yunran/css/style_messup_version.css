@@ -1,0 +1,468 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Optima,serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*reset end*/
+
+html{
+    width: 100%;
+   	height: 100%;
+}
+body{
+    width: 100%;
+   	height: 100%;
+}
+.firstscreen{
+	height: 25%;
+/*	width: 100%;
+*/	position: relative;
+	overflow: hidden;
+}
+.nav{
+	position: fixed;
+	top: 50%;
+	right: -130px;
+	transform: rotate(0.25turn);
+	z-index: 10000;
+}
+.nav li{
+	float: left;
+	color: #8D8D8D;
+	font-size: 13px;
+}
+.dot{
+	width: 62px;
+	height: 1px;
+	margin: 0px 20px;
+	border-top: 1px dotted #8D8D8D;
+	float: left;
+	margin-top: 8px;
+}
+.home{
+	font-size: 16px;
+	position: fixed;
+	top: 63px;
+	left: 81px;
+	z-index: 100000;
+}
+.line{
+	height: 1px;
+	width: 23px;
+	border-bottom: 0.5px solid;
+	transform: rotate(0.25turn);
+	position: fixed;
+	top: 70px;
+	left: 55px;
+	z-index: 10000;
+}
+.position{
+	font-size: 16px;
+	position: absolute;
+	top: 129px;
+	left: 255px;
+}
+.name{
+	font-size: 35px;
+	position: absolute;
+	top: 212px;
+	left: 255px;
+}
+.time{
+	font-size: 16px;
+/*	position: relative;
+	top: 256px;
+	left: 255px;*/
+	color: #8D8D8D;
+	display: block;
+}
+.info{
+	font-size: 35px;
+	position: absolute;
+	top: 290px;
+	right: 320px;
+}
+.numberfirst{
+	font-size: 16px;
+	position: absolute;
+	top: 305px;
+	right: 391px;
+}
+.intro{
+	font-size: 18px;
+	position: absolute;
+	margin: 354px;
+	line-height: 25px;
+}
+.play{
+	font-size: 15px;
+	position: relative;
+	float: left;
+}
+.triangle{
+	width: 14px;
+	float: left;
+	margin-left: 95px;
+}
+.triangle img{
+	width: 100%;
+}
+.button{
+	border: 1px solid #000000;
+	width: 188px;
+	overflow: hidden;
+	padding: 15px 30px;
+	position: absolute;
+	right: 319px;
+	top: 650px;
+}
+.imgfirst img{
+	width: 100%;
+}
+.imgfirst{
+	width: 210px;
+	position: absolute;
+	top: 510px;
+	left: 352px;
+	box-shadow: 
+}
+.imgsecond img{
+	width: 100%;
+}
+.imgsecond{
+	width: 210px;
+	position: absolute;
+	top: 510px;
+	left: 595px;
+}
+.secondscreen{
+	height: 775px;
+	width: 100%;
+	background-color: #EEEEEE;
+	position: relative;
+	overflow: hidden;
+}
+.persona img{
+	width: 852px;
+	position: absolute;
+	right: 130px;
+	top: 12.5%;
+}
+.per{
+	font-size: 35px;
+	position: absolute;
+	top: 50%;
+	left: 255px;
+}
+.numbersecond{
+	font-size: 16px;
+	position: absolute;
+	top: 47.2%;
+	left: 255px;
+}
+.linesecond{
+	height: 1px;
+	width: 237px;
+	border-bottom: 0.5px solid;
+	position: absolute;
+	top: 56%;
+	left: 255px;
+}
+.thirdscreen{
+	height: 600px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.scenario img{
+	width: 100%;
+}
+.scenario{
+	width: 987px;
+	position: relative;
+	top: 267px;
+	left: 20%;
+}
+.numberthird{
+	font-size: 16px;
+	position: absolute;
+	top: 19%;
+	left: 768px;
+}
+.sen{
+	font-size: 35px;
+	position: absolute;
+	top: 23%;
+	left: 768px;
+}
+.forthscreen{
+	height: 900px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.imgforth img{
+	width: 100%
+}
+.imgforth{
+	width: 984px;
+	position: absolute;
+	left: 135px;
+}
+.numberforth{
+	font-size: 16px;
+	position: absolute;
+	top: 25%;
+	right: 451px;
+}
+.proposal{
+	font-size: 35px;
+	position: absolute;
+	top: 28%;
+	right: 330px;
+}
+.pro{
+	font-size: 17px;
+	position: absolute;
+	margin: 383px;
+	line-height: 25px;
+	width: 439px;
+	right: -212px;
+}
+.fifthscreen{
+/*	height: 100%;
+	width: 100%;*/
+/*	background-color: #F8F8F8;
+*/	display: inline-block;
+    text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+/*img{
+	width: 50%;
+	hight: 50%;
+}*/
+.homepage{
+	width: 80%;
+	float: left;
+	position: absolute;
+	top: 0px;
+}
+.personal{
+	width: 340px;
+	float: left;
+	position: absolute;
+	top: 130px;
+	left: 920px;
+}
+.location{
+	width: 340px;
+	float: left;
+	position: absolute;
+	top: 130px;
+	left: 150px;
+}
+.colors img{
+	width: 80px;
+}
+.yellow{
+	position: absolute;
+	float: right;
+	left: 78%;
+	top: 42%;
+}
+.blue{
+	position: absolute;
+	float: right;
+	left: 78%;
+	top: 52.5%;
+}
+.white{
+	position: absolute;
+	float: right;
+	left: 78%;
+	top: 63%;
+}
+.grey{
+	position: absolute;
+	float: right;
+	left: 78%;
+	top: 73.5%;
+}
+.yellowtag{
+	font-size: 16px;
+	position: absolute;
+	top: 49%;
+	left: 85%
+}
+.bluetag{
+	font-size: 16px;
+	position: absolute;
+	top: 59.5%;
+	left: 85%;
+}
+.whitetag{
+	font-size: 16px;
+	position: absolute;
+	top: 70%;
+	left: 85%;
+}
+.greytag{
+	font-size: 16px;
+	position: absolute;
+	top: 80.5%;
+	left: 85%;
+}
+.blueversion{
+	float: left;
+	position: absolute;
+	left: 59.5%;
+	top: 20%;
+}
+.search{
+	float: left;
+	position: absolute;
+	left: 75.5%;
+	top: 20%;
+}
+.trianglesecond{
+	width: 80px;
+	position: absolute;
+	float: left;
+}
+.seventhscreen{
+	width: 100%;
+	height: 600px;
+	background-color: #0F0F0F;
+	color: white;
+	padding-top: 150px;
+}
+.footer{
+	text-align: center;
+	position: relative;
+	top: 90%;
+	font-size: 11px;
+}
+.twentyone img{
+	width: 160px;
+	float: left;
+}
+.twentyone{
+	float: left;
+	position: relative;
+	left: 45.5%;
+	top: 20%;
+}
+.whattowear{
+	position: relative;
+	float: left;
+	top: 45%;
+	left: 32%;
+	font-size: 30px;
+}
+div.badassColorChangingLogo{
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%); 
+}
+div.badassColorChangingLogo:hover{
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%); 
+    transform: matrix(1,0,0,1,0,0);
+    -webkit-transform:matrix(1,0,0,1,0,0);
+
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+figure{
+    display:inline-block;
+    position:relative;
+}
+img{
+	width: 50%;
+	hight: 50%;
+    vertical-align:middle;
+    transition:-webkit-filter .25s linear 99999s,filter .25s linear 99999s;
+}
+/*img:hover{
+    -webkit-filter:grayscale(1);
+    filter:grayscale(1);
+    transition-delay:0s;
+}*/
+figure::after{
+    animation:colours 5s linear infinite;
+    bottom:0;
+    content:"";
+    left:0;
+    mix-blend-mode:overlay;
+    opacity:0;
+    pointer-events:none;
+    position:absolute;
+    right:0;
+    top:0;
+    transition:opacity .25s linear 99999s;
+}
+figure:hover::after{
+    opacity:.75;
+    transition-delay:0s;
+}
+figure.paused::after{
+    animation-play-state:paused;
+}
+@keyframes colours{
+    0%{background:#f00;}
+    16.667%{background:#ff0;}
+    33.333%{background:#0f0;}
+    50%{background:#0ff;}
+    66.667%{background:#00f;}
+    83.333%{background:#f0f;}
+    100%{background:#f00;}
+}
